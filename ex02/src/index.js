@@ -10,7 +10,7 @@ class Book {
      }
      
     set title(newTitle) {
-    this.title = newTitle;
+    this._title = newTitle;
     }
 }
 
@@ -21,6 +21,8 @@ littlePrince.title = "Le Petit Prince";
 console.log(littlePrince.title);
 
 module.exports = Book;
+
+
 
 
 
